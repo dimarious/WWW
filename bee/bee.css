@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Courgette&display=swap');
+
+body{
+    background-color: rgb(246, 216, 175);
+    
+}
+.container {
+    padding-top: 50px;
+}
+h1{
+    font-size: 70px;
+    text-align: center;
+    /*font-family: 'Cantarell', sans-serif;*/
+    font-family: 'Courgette', cursive;
+     
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+/* Add a black background color to the top navigation */
+.topnav {
+    margin-top: 50px;
+    background-color: rgb(223, 203, 24);
+    overflow: hidden;
+    display: flex;
+    justify-content:space-around;/*расположение меню кнопок*/
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 24px;
+    
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    text-decoration: underline; /* Добавляем подчеркивание */
+    color: black;
+}
+h4 {
+    text-align: center;
+    padding-top: 2cm;
+    font-size:  34px; ;
+}
+#text{
+    font-size: 20px;
+    line-height:1,75;
+}
+#cont1 {
+    max-width: 600px;
+}
+#das_sortiment_active { 
+    text-decoration: underline;
+}
+#kontakt_active {
+    text-decoration: underline;
+}
+#kontakt{
+    font-size: 20px;
+    line-height:1,75;
+    text-align: center;
+}
+#kontakt_mail{
+    margin-left:255px ;
+}
+.card-body{
+    padding-top: 3cm;
+}
+.card{
+    background: transparent;/*прозрачный фон карточки*/
+    border: none;
+}
+.card-text{
+    font-size: 20px;
+    line-height:1,75;
+}
+#bg {/*растягивает на весь экран backgraund bild*/
+    position:fixed;
+    z-index: -1;
+    top:0;
+    left:0; 
+    min-width:100%;
+    min-height:100%;
+}
